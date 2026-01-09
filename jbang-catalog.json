@@ -4,7 +4,10 @@
     "kite": {
       "script-ref": "cloud.kitelang:kite-cli:RELEASE",
       "description": "Multi-cloud Infrastructure as Code CLI. Write once, deploy to AWS, GCP, or Azure.",
-      "java": "25+"
+      "java": "25+",
+      "runtime-options": [
+        "--enable-native-access=ALL-UNNAMED"
+      ]
     }
   }
 }
